@@ -13,19 +13,27 @@ Thanks to https://github.com/riscv-software-src/homebrew-riscv this is pretty
 easy if you already have homebrew.
 
 ```
-$ brew tap riscv-software-src/riscv
-$ brew install riscv-tools qemu
+brew tap riscv-software-src/riscv
+brew install riscv-tools qemu
 ```
 
 Arch Linux:
 
 ```
-$ pacman -S riscv64-elf-gcc qemu
-(choose 3 for the most featureful qemu)
-$ export TOOLPREFIX=riscv64-elf-
+pacman -S qemu-system-riscv riscv64-linux-gnu-gcc
 ```
 
-CentOS/Ubuntu: TODO
+Fedora:
+
+```
+yum install qemu-system-riscv make gcc binutils-riscv64-linux-gnu gcc-riscv64-linux-gnu
+```
+
+Ubuntu 24.04 at least:
+
+```
+apt-get install qemu-system-misc build-essential gcc-riscv64-unknown-elf
+```
 
 ## Testing compiler and emulator
 
@@ -40,6 +48,8 @@ init: starting sh
 $ echo hi | cat
 hi
 ```
+
+To exit, type `Ctrl-a x` (similar to how shortcuts work in GNU Screen or Tmux).
 
 ## Reading
 
