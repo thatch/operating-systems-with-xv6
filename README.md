@@ -9,7 +9,7 @@ you'll get back out.
 You should first clone the sources from
 
 ```
-$ git clone https://github.com/mit-pdos/xv6-riscv.git
+git clone https://github.com/mit-pdos/xv6-riscv.git
 ```
 
 Then should bookmark/download the
