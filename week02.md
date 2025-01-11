@@ -23,6 +23,8 @@ and how to accomplish *useful* work with a minimal environment on top of syscall
 
 * write a program that causes `malloc` to return an error -- for example an
   impossible allocation size.  If very large, what is the limiting factor here
-  -- virtual, or physical?
+  -- virtual, or physical?  What does trying to allocate `0` or `-1` bytes do?
 * ping-pong exercise from the end of pg 19 (but performance measurement is
-  probably a bit much, just make it go 10 rounds and stop)
+  probably a bit much, just make it go 10 rounds and stop).  This basic idea is
+  used in the GNU Make jobserver, when you use `make -j` to implement a
+  [multi-process bounded semaphore](https://make.mad-scientist.net/papers/jobserver-implementation/)
