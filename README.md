@@ -13,7 +13,7 @@ $ git clone https://github.com/mit-pdos/xv6-riscv.git
 ```
 
 Then should bookmark/download the
-[xv6 book](https://pdos.csail.mit.edu/6.828/2023/xv6/book-riscv-rev3.pdf) as
+[xv6 book](https://pdos.csail.mit.edu/6.1810/2024/xv6/book-riscv-rev4.pdf) as
 most of the readings will be from that.  It is meant to be read along with the
 source code, which is small enough that you can e.g. `grep -R usleep` and find
 the implementation.
@@ -21,7 +21,7 @@ the implementation.
 Both of those are (essentially) linked from the
 [6.1810](https://pdos.csail.mit.edu/6.1810/2024/xv6.html) page if you want to
 fuss with pdflatex to get the latest version (6.828 seems to have been renamed
-6.1810, and `rev3` is the most recent one I can find prebuilt)
+6.1810 and `rev4` from 8/31/2024 is the most recent prebuilt version available).
 
 * [Week 1](week01.md)
 * [Week 2](week02.md)
