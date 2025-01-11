@@ -53,13 +53,16 @@ To exit, type `Ctrl-a x` (similar to how shortcuts work in GNU Screen or Tmux).
 
 ## Reading
 
-* [xv6 book](https://pdos.csail.mit.edu/6.828/2023/xv6/book-riscv-rev3.pdf) through middle of page 11
+* [xv6 book](https://pdos.csail.mit.edu/6.1810/2024/xv6/book-riscv-rev4.pdf) through middle of page 11
 
 ## Questions
 
-* pg 9: Is "to a lesser extent, Microsoft Windows" entirely fair?  (Hint: read
-  about [WSL 1 on Wikipedia](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) and
-  form an opinion)
+* pg 9: Considering the remark in the text of "to a lesser extent,
+  Microsoft Windows" -- what parts does the "operating system" encompass in
+  your mindi?  Modern features such as hypervisors, binary translation
+  (Rosetta), WINE, and 
+  [WSL 1](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux)
+  might make this a little fuzzy.
 * pg 10: pick one of *processes, memory, file descriptors, pipes, and a file
   system* and consider what an implementation entirely in userland would look
   like -- even if it's silly.  Search the Internet to find if anyone has

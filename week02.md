@@ -7,17 +7,17 @@ and how to accomplish *useful* work with a minimal environment on top of syscall
 
 ## Reading
 
-* [xv6 book](https://pdos.csail.mit.edu/6.828/2023/xv6/book-riscv-rev3.pdf) from page 11 to 19.
+* [xv6 book](https://pdos.csail.mit.edu/6.1810/2024/xv6/book-riscv-rev4.pdf) from page 11 to 19.
 * OSTEP for [File](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) ([System](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf))
 
 ## Questions
 
 * end of pg 12: what happens if `echo` forgets to call `exit`?  Hint: `user/ulib.c`
 * beginning of pg 13: *does* `malloc` call `sbrk`?  Hint: `user/umalloc.c`
-* pg 19: "XV6 is *not* POSIX compliant" -- from the list on page 11, find at
-  least one that's different and explain how.  How hard do you think it would
-  it be to *make* it more compliant (Hint: start with just the function
-  prototypes)
+* pg 19: "XV6 is *not* POSIX compliant" -- from the list of syscalls on page
+  11, find at least one that's different and explain how.  How hard do you
+  think it would it be to *make* it more compliant (Hint: start with just the
+  function prototypes)
 
 ## Assignments
 

@@ -21,10 +21,12 @@ the implementation.
 Both of those are (essentially) linked from the
 [6.1810](https://pdos.csail.mit.edu/6.1810/2024/xv6.html) page if you want to
 fuss with pdflatex to get the latest version (6.828 seems to have been renamed
-6.1810 and `rev4` from 8/31/2024 is the most recent prebuilt version available).
+6.1810 and `rev4` from 2024-08-31 is the most recent prebuilt version available).
 
 * [Week 1](week01.md)
 * [Week 2](week02.md)
+* [Week 3](week03.md)
+* [Week 4](week04.md)
 
 ## Notes for people taking this in Jan/Feb 2025 on slack
 
