@@ -8,6 +8,7 @@ without requiring them to have a special file extension.
 
 ## Reading
 
+* [xv6 book](https://pdos.csail.mit.edu/6.1810/2024/xv6/book-riscv-rev4.pdf) pages 40-41 (from last week again)
 * https://en.wikipedia.org/wiki/Shebang_(Unix)
 * `kernel/exec.c`
 
