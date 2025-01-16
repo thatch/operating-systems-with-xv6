@@ -27,6 +27,8 @@ fuss with pdflatex to get the latest version (6.828 seems to have been renamed
 * [Week 2](week02.md)
 * [Week 3](week03.md)
 * [Week 4](week04.md)
+* [Week 5](week05.md)
+* [Week 6](week06.md)
 
 ## Notes for people taking this in Jan/Feb 2025 on slack
 
