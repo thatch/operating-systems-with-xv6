@@ -26,9 +26,9 @@ on panic screens that dump registers.  The Windows BSOD is an example of this.
   [RISC-V Assmebler: Branch Set](https://projectf.io/posts/riscv-branch-set/#program-counter)
   may be helpful.  (Hints: `file(1)`, `<prefix>-objdump -d <file> | head -n
   50`, `auipc` is one such instruction, typically in the third column)
-* Debug your kernel, and put a breakpoint on a syscall (like `write`) to see
+* Debug your kernel, and put a breakpoint on a syscall (like `sys_write`) to see
   how argument handling happens.  (Hints: `make qemu-gdb` and then run
-  `riscv64-linux-gnu-gdb` *in the same working dir in another window* then use
+  `riscv64-elf-gdb` *in the same working dir in another window* then use
   the cheat sheet below to break in `sys_write`.  Try to follow the trail until
   your find the code that actually outputs a single byte (Hint: `consolewrite`
   is close)
@@ -37,6 +37,24 @@ on panic screens that dump registers.  The Windows BSOD is an example of this.
   need hints.  Write a user program that dup2's stdout to a new number of your
   choice and write to it in user code.  Do that (with the same args) in a loop
   1000 times; does your code have any bugs?
+
+## GDB Install
+
+Mac:
+
+```
+brew install riscv64-elf-gdb
+```
+
+Arch:
+
+```
+pacman -S riscv64-elf-gdb
+```
+
+etc.  (`riscv64-linux-gnu-gdb` also works, if you can't find the bare-metal one)
+
+If you get an error about having to run something to trust this `.gdbinit`, you should run that.
 
 ## GDB Cheat Sheet
 
