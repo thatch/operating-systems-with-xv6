@@ -52,6 +52,11 @@ Arch:
 pacman -S riscv64-elf-gdb
 ```
 
+Ubuntu (use standard `gdb` command after install):
+```
+apt install gdb-multiarch
+```
+
 etc.  (`riscv64-linux-gnu-gdb` also works, if you can't find the bare-metal one)
 
 If you get an error about having to run something to trust this `.gdbinit`, you should run that.
